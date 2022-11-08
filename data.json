@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Wedding Photography",
+        "img": "https://media.istockphoto.com/id/1399000045/photo/wedding-guests-clapping-hands-as-the-newlywed-couple-walk-down-the-aisle-joyful-bride-and.jpg?b=1&s=170667a&w=0&k=20&c=BVEqcua-bQik4loA3L-SAr1iS-Fg58haObnUwZNvr4k=",
+        "price": "200",
+        "desc": "Wedding are an auspicious event and people spend a significant amount of their time in making sure that the most important day of their life is captured and stored beautifully. It is a time of joy and celebration which if looked back on, given people memories which they didn’t even remember or notice at the time. If you are looking for a Wedding Photographer, i promise to take care of you with excellent customer service and beautiful wedding photography. I have photographed over 800 weddings and always helped my client to catch their memory. ",
+        "ratings": "5.0"
+    },
+    {
+        "name": "Fashion Photography",
+        "img": "https://media.istockphoto.com/photos/blonde-woman-in-wild-patterned-dress-picture-id108329358?b=1&k=20&m=108329358&s=170667a&w=0&h=wg6cGJiy4c13_8Ka7uAW2fvz-BEPYlMeWPIWY3QJl7g=",
+        "price": "150",
+        "desc": "This is one of the most glamorous and difficult to enter the genre of photography job. The work of a fashion photographer includes covering shoots of the top fashion magazines to clicking awe-inspiring photographs of the latest styles in trends on the runway. Being a very integral part of the fashion industry, fashion photographers have to put in a lot of hard work and passion into this job. When I started my photography website and my account when I was 15 years old it was all very anonymous. I thought it was all about the photos but a few years later I discovered that the person behind the ‘brand’ makes it even more personal. I have many more experience about fashion related photo capture",
+        "ratings": "4.8"
+    },
+    {
+        "name": "Catalog Photography",
+        "img": "https://images.unsplash.com/photo-1509043759401-136742328bb3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80",
+        "price": "130",
+        "desc": "This kind of photography includes clicking pictures of various products like food items, beauty, and health, gadgets, accessories, grocery products, books, fashion items, etc. Catalog photography is the primary medium for showcasing the brand’s product range. A beautiful and descriptive catalog prepared with high-quality images of the products and their features in detail. This is used by the brand to let the potential customers gain access and knowledge to the various products former their looks and their utility before finalizing the decision of buying them.",
+        "ratings": "4.9"
+    },
+    {
+        "name": "Aerial Photography",
+        "img": "https://images.unsplash.com/photo-1577950510988-84c3e383daef?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80",
+        "price": "25",
+        "desc": "People say “The world is such a small place” when they meet someone they know unexpectedly in an unexpected place. But rarely do they realize that it is the change in perspective that will give them the bigger picture. Aerial photography presents the bigger picture to you. It captures images of objects, landscapes, etc. from high above the ground using a high definition camera. Aerial photography nowadays is done using popular tools such as drones, helicopters, balloons, etc which present a different viewing angle or perspective. It is a very interesting form of photography and requires immense amounts of skill and precision to pin-point the right location, duration, time of the day, etc to capture the ideal aerial photo.",
+        "ratings": "4.5"
+    },
+    {
+        "name": "portrait photography",
+        "img": "https://media.istockphoto.com/id/1336311181/photo/shot-of-a-young-businesswoman-against-a-studio-background.jpg?b=1&s=170667a&w=0&k=20&c=ZIh9o4NTkJeMUNxhHlyiBbOKV5M8EZbX0yBrRhCot9s=",
+        "price": "30",
+        "desc": "Portrait photography is about capturing the essence, personality, identity and attitude of a person utilizing backgrounds, lighting and posing. While this definition may sound simple, portrait photography can be one of the most challenging forms of photography to master. The goal is to capture a photo that appears both natural and prepared to allow the subject’s personality to show through. i have a more experience about portrait photo shoot.",
+        "ratings": "4.8"
+    },
+    {
+        "name": "Birthday PhotoShoot",
+        "img": "https://www.fluentu.com/blog/japanese/wp-content/uploads/sites/6/2020/08/happy-birthday-in-Japanese-e1597834493500.jpg",
+        "price": "120",
+        "desc": "Every year brings us new experiences. You develop in size, physical characters, and, most importantly, personality. You might have outgrown costume characters and bounces houses, but your birthday still makes you feel different and unique. Thus, make professional birthday photoshoot an annual tradition to not only have a good time but also celebrate the hard work and efforts for an entire year. Your birthday is a special occasion, and this important enough to book a professional photo session and feel like a star",
+        "ratings": "4.7"
+    }
+]
