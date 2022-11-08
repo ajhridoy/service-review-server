@@ -13,8 +13,23 @@ app.use(express.json())
 const uri = `mongodb+srv://${process.env.DB_NAME}:${process.env.DB_PASSWORD}@cluster0.jh5ecod.mongodb.net/?retryWrites=true&w=majority`;
 console.log(uri)
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
+async function run(){
+    try{
+        const photographyServices = client.db('serviceReview').collection('services')
 
+        app.get('/serviceshome', async(req, res) => {
+            const query = {}
+            const cursor = photographyServices.find(query)
+            const services = await cursor.limit(3).toArray()
+            res.send(services)
+        })
 
+    }
+    finally{
+
+    }
+}
+run().catch(err => console.log(err))
 
 app.get('/', (req, res) => {
     res.send('service review is running')
