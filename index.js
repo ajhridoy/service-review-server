@@ -27,7 +27,7 @@ async function run(){
 
         app.get('/services', async(req, res) => {
             const query = {}
-            const cursor = photographyServices.find(query)
+            const cursor = photographyServices.find(query).sort({_id: -1})
             const services = await cursor.toArray()
             res.send(services)
         })
@@ -37,6 +37,12 @@ async function run(){
             const query = {_id: ObjectId(id)}
             const service = await photographyServices.findOne(query)
             res.send(service)
+        })
+
+        app.post('/services', async(req, res) => {
+            const service = req.body
+            const result = await photographyServices.insertOne(service)
+            res.send(result)
         })
 
         //review collection
@@ -85,7 +91,7 @@ async function run(){
             const id = req.params.id
             const filter = {_id: ObjectId(id)}
             const reviews = req.body
-            console.log(reviews)
+            // console.log(reviews)
             const option = {upsert: true}
             const updateReviews = {
                 $set: {
