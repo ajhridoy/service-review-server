@@ -67,10 +67,33 @@ async function run(){
             res.send(myReviews)
         })
 
+        app.get('/myreviews/:id', async(req, res) => {
+            const id = req.params.id
+            const query = {_id: ObjectId(id)}
+            const result = await reviewsCollection.findOne(query)
+            res.send(result)
+        })
+
         app.post('/reviews', async(req, res) => {
             const reviews = req.body
             const result = await reviewsCollection.insertOne(reviews)
-            console.log(result)
+            res.send(result)
+        })
+
+        //reviews update API
+        app.put('/myreviews/:id', async(req, res) => {
+            const id = req.params.id
+            const filter = {_id: ObjectId(id)}
+            const reviews = req.body
+            console.log(reviews)
+            const option = {upsert: true}
+            const updateReviews = {
+                $set: {
+                    message: reviews.message
+                }
+            }
+            const result = await reviewsCollection.updateOne(filter, updateReviews, option);
+            
             res.send(result)
         })
 
@@ -79,7 +102,6 @@ async function run(){
             const id = req.params.id
             const query = {_id: ObjectId(id)}
             const result = await reviewsCollection.deleteOne(query)
-            console.log(result)
             res.send(result)
         })
         
